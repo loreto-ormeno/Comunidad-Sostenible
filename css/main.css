@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 1200px;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    width: 1200px;
+    color: #c3c3c3;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+    .nav-1 {
+        width: 100px;
+        height: 100px;
+        font-size: 1em;
+        border: solid;
+    }
+        .nav-1 img {
+            width: 100px;
+            height: 100px;
+        }
+    .nav-2 {
+        width: 800px;
+        border: solid;
+        margin: 0px 0px 0px 120px;
+    }
+        .nav-2 ul {
+            list-style: none;
+        }
+        .nav-2 li {
+            display: inline;
+            margin: 10px;
+            padding: 6px;
+        }
+    
+    .head {
+        width: 1200;
+        margin: 0px;
+        background-color: rgb(244, 247, 250);
+        vertical-align: top;
+    }
+        .head img {
+            width: 1200px;
+            height: 350px;
+            background-color: aquamarine;
+            background-image: url('/img/semilla.jpg');
+            background-size: cover;
+            background-position: center;   
+        }
+        .head-botton {
+            margin: 0px;
+            padding: 50px 200px 50px 200px;
+            vertical-align: top;
+            text-align: center; 
+        }
+        .main {
+            width: 1200px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+            .main-1 {
+                width: 537px;
+                padding: 30px;
+                display: inline-block;
+                background-color: white;
+                text-align: center;
+            } 
+
+                .main-1 img {
+                    width: 160px;
+                    height: 160px;
+                    padding: 10px 0px 10px 0px;
+                    vertical-align: middle;
+                }
+                .main-1 h2 {
+                    padding: 10px 0px 10px 0px;
+                }
+                .main-1 p {
+                    padding: 10px 0px 10px 0px;
+                }
+        .main-center-2 {
+            width: 1200px;
+            height: 400px;
+            margin: 0px;
+            background-color: #3e704d;
+        }
+            
+            .main-2 {
+                    width: 600px;
+                    height: 400px;
+                    display: inline-block;
+                    vertical-align: top;
+            } 
+        
+            .main-2 img {
+                width: 600px;
+                height: 400px;
+                margin: 0px;
+            } 
+            .main-3 {
+                width: 556px;
+                height: 360px;
+                margin: 0px;
+                padding: 20px;
+                display: inline-block;
+                text-align: center;
+                vertical-align: top;
+                color: white
+            }
+                .main-3 img {
+                    width: 60px;
+                    height: 60px;
+                    padding: 30px 0px 20px 0px;
+                }
+                .main-3 h2 {
+                    padding: 30px 0px 20px 0px;
+                }
+                .main-3 p {
+                    padding: 20px 0px 20px 0px;
+                }
+    .main-center {
+        width: 1158px;
+        background-color: white;
+        text-align: center;
+        padding: 20px;
+        margin: 0px;
+    } 
+        .main-center p {
+            padding: 40px;
+        }
+        .main-center h2{
+            padding-top: 20px;
+        }
+    .servicios {
+        width: 300px;
+        vertical-align: top;
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+        .servicios img {
+            padding: 5px;
+        }
+        .servicios h1 {
+            color: #5E8039;
+        }
+        .servicios p {
+
+        }
+    .main-4 {
+        width: 1060px;
+        background-color: #5E8039;
+        color: white;
+        padding: 20px 40px 20px 100px;
+    }
+        .main-4 h2 {
+            text-align: center;
+            padding: 20px;
+        }
+        .proyectos {
+            width: 480px;
+            height: 400px;
+            display: inline-block;
+            text-align: top;
+            vertical-align: top;
+            margin: 0px;
+        }
+        .proyectos img {
+            width: 470px;
+            height: 340px;
+            padding: 0px;
+            vertical-align: right;
+        }
+
+        .proyectos h2 {
+            text-align: left;
+            padding: 15px 5px 5px 0px;
+           
+        }
+        .proyectos h3 {
+            padding: 5px 5px 5px 0px;
+
+        }
+        .proyectos p {
+            padding: 20px 0px 5px 0px;
+        }
+        .main-5 {
+            width: 1120px;
+            background-color: white;
+            margin: 0px;
+            padding: 10px 40px 10px 40px;
+        }
+            .main-5 h2 {
+                color: #5E8039;
+                text-align: center;
+                padding: 20px top;
+            }
+            .row {
+                width: 400px;
+                display: inline-block;
+                padding: 0px 20px 5px 20px;
+                margin: 0px 50px 0px 50px;
+            }
+            .equipo {
+                width: 350px;
+                display: inline-block;
+                margin: 10px 30px 10px 30px;
+                text-align: center;
+            }
+                .equipo img {
+                    width: 250px;
+                    height: 250px;
+                    border-radius: 300px;
+                }
+                .equipo h2 {
+                    padding: 50px 0px 20px 0px;
+                    text-align: center;
+                    color: black;
+                    
+                }
+                .equipo h4 {
+                    padding: auto;
+                    text-align: center;
+                }
+                .redes-sociales {
+                    width: 350px;
+                    padding: 10px 100px 10px 120px;
+                    display: inline-block;
+      
+                }
+                .redes-sociales ul {
+                    list-style: none;
+                }
+                .redes-sociales li {
+                    display: inline;
+                }
+                .redes-sociales img {
+                    width: 40px;
+                    height: 40px;
+                    
+                    
+                }
+        .banner {
+            width: 1200px;
+            background-color: #d8d8d8;
+            padding: 40px 50px 40px 80px;
+            vertical-align: center;
+        }
+            .banner h2 {
+                margin: 10px;
+                text-align: center;
+                padding: 10px;
+            }
+            .slider {
+                width: 50px;
+                height: 180px;
+                display: inline-block;
+                border: solid;
+                vertical-align: bottom;
+            }
+                .slider img {
+                    width: 50px;
+                    height: 50px;
+                }
+            
+            .titulos {
+                width: 300px;
+                display: inline-block;
+                border: solid;
+            }
+                .titulos h2 {
+                    text-align: left 0px;
+                }
+
+                .titulos img {
+                    width: 280px;
+                    height: 180px;
+                }
+            .titulos-1 {
+                width: 300px;
+                display: inline-block;
+                border: solid;
+                color: #5E8039;
+            }
+                .titulos-1 h2 {
+                    text-align: left;
+                }
+
+                .titulos-1 img {
+                    width: 280px;
+                    height: 180px;
+                }
+    .fotter-top {
+        width: 1200px;
+        height: 350px;
+        background-color:#4D4D4D;
+        
+    }
+   .caja {
+        width: 250px;
+        height: 250px;
+        color: white;
+        border: solid;
+        display: inline-block;
+    }
+        .caja h2 {
+            display: inline;
+        }
+        .caja img {
+            width: 50px;
+            height: 50px;
+            display: inline;
+        } 
+
+            
+
+           
