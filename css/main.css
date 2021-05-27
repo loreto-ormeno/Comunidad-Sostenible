@@ -192,7 +192,7 @@
             padding: 20px 0px 5px 0px;
         }
         .main-5 {
-            width: 1120px;
+            width: 1118px;
             background-color: white;
             margin: 0px;
             padding: 10px 40px 10px 40px;
@@ -231,7 +231,7 @@
                 }
                 .redes-sociales {
                     width: 350px;
-                    padding: 10px 100px 10px 120px;
+                    padding: 10px 100px 10px 100px;
                     display: inline-block;
       
                 }
@@ -248,7 +248,7 @@
                     
                 }
         .banner {
-            width: 1200px;
+            width: 1070px;
             background-color: #d8d8d8;
             padding: 40px 50px 40px 80px;
             vertical-align: center;
@@ -262,7 +262,6 @@
                 width: 50px;
                 height: 180px;
                 display: inline-block;
-                border: solid;
                 vertical-align: bottom;
             }
                 .slider img {
@@ -286,7 +285,6 @@
             .titulos-1 {
                 width: 300px;
                 display: inline-block;
-                border: solid;
                 color: #5E8039;
             }
                 .titulos-1 h2 {
