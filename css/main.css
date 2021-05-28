@@ -3,7 +3,8 @@
     padding: 0;
 }
 .wrapper {
-    width: 1200px;
+    width: 100%;
+   /*  width: 1200px; */
     margin: 0px;
     padding: 0px;
 }
@@ -34,14 +35,14 @@
         /* display: inline-block; */
         border: solid;
      }
-        .nav-2 ul {
+        /* .nav-2 ul {
             list-style: none;
         }
         .nav-2 li {
             display: inline;
             padding: 6px;
             font-size: 15px;
-        }
+        } */
     
     .head {
         width: 1200;
