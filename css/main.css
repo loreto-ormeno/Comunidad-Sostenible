@@ -1,6 +1,19 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "OpenSans-Light" Helvetica;
+}
+@font-face{
+	font-family: OpenSans-Regular;
+	src: url(../fonts/Open/OpenSans-Regular.ttf);
+}
+@font-face{
+	font-family: OpenSans-Light;
+	src: url(../fonts/Open/OpenSans-Light.ttf);
+}
+@font-face{
+	font-family: OpenSans-Bold;
+	src: url(../fonts/Open/OpenSans-Bold.ttf);
 }
 .wrapper {
     width: 100%;
@@ -10,7 +23,7 @@
 .navbar {
     width: 1160px;
     height: 100px;
-    color: #bfbbbb;
+    color: #dcd1d1;
     margin: 0px;
     padding: 20px;
     display: inline-block;
@@ -20,12 +33,14 @@
         height: 100px;
     }
     .navbar-right {
-        width: 400px;
+        width: 500px;
         height: 60px;
         vertical-align: top;
+        margin-top: 30px;
         margin-left: 400px;
         display: inline-block;
-        border: solid;
+        font-size: 20px;
+       
     }
 
         .navbar a {
@@ -114,6 +129,7 @@
                 }
                 .main-3 h2 {
                     padding: 30px 0px 20px 0px;
+                    
                 }
                 .main-3 p {
                     padding: 20px 0px 20px 0px;
@@ -128,15 +144,16 @@
         .main-center p {
             padding: 40px;
         }
-        .main-center h2{
-            padding-top: 20px;
+        .main-center h3{
+            /* padding-top: 10px; */
+            color: #5E8039;
         }
     .servicios {
         width: 300px;
         vertical-align: top;
         display: inline-block;
         margin: 10px;
-        padding: 10px;
+        padding: 5px;
         text-align: center;
     }
         .servicios img {
@@ -145,9 +162,7 @@
         .servicios h1 {
             color: #5E8039;
         }
-        .servicios p {
-
-        }
+       
     .main-4 {
         width: 1060px;
         background-color: #5E8039;
@@ -242,7 +257,7 @@
                 }
         .banner {
             width: 1200px;
-            height: 500px;
+            height: 420px;
             margin: 0px;
             padding: 0px;
             background-image: url("/img/fondo2.jpg");
@@ -276,6 +291,7 @@
             .titulos {
                 width: 300px;
                 display: inline-block;
+                color: rgb(83, 88, 95);
             }
                 .titulos h2 {
                     text-align: left;
@@ -311,15 +327,13 @@
             height: 230px;
             display: inline-block;
             color: white;
-        /*  margin: 0; */
             border-style: solid;
             border-width: 1px;
             padding: 10px;
-            
+                        
         }
             .caja li {
                 display: inline;
-                /* padding-left: 30px; */
             }  
             .caja h2 {
                 display: inline; 
@@ -356,7 +370,7 @@
             display: inline-block;
         }
             .caja-right span {
-            color: rgb(83, 88, 95);
+            color: rgb(70, 73, 79);
             }
 
             
